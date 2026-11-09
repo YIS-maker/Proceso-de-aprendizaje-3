@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* FONDO */
+.fondo {
+    width: 100%;
+    min-height: 100vh; 
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)),
+        url("img/cafe_bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+/* CONTENIDO */
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* TÍTULO */
+h1 {
+    font-size: 55px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+
+/* DESCRIPCIÓN */
+.contenido p {
+    width: 650px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 18px;
+}
+
+.contenido p span {
+    font-style: italic;
+    opacity: 80%;
+}
+
+/* MENÚ */
+nav ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 18px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: normal;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    opacity: 60%;
+}
+
+
+/* REDES SOCIALES */
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.redes a {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    color: #333;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 11px;
+    transition: 0.3s;
+}
+
+.redes a:hover {
+    transform: scale(1.15);
+    background-color: #ddd;
+}

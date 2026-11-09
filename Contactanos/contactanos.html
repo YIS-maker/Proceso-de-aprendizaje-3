@@ -1,0 +1,158 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fifty Coffees</title>
+
+  
+    <link rel="stylesheet" href="contactanos.css">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    
+    <link rel="shortcut icon" href="../img/mug-saucer-solid-full.svg" type="image/svg+xml">
+</head>
+
+<body>
+
+    <!-- CABECERA -->
+    <header class="cabecera">
+        <h1>fifty coffees</h1>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li>
+                    <a href="../index.html">
+                        <i class="fa-regular fa-heart"></i>
+                        INICIO
+                    </a>
+                </li>
+                <li>
+                    <a href="../Nosotros/nosotros.html">
+                        <i class="fa-solid fa-users"></i>
+                        NOSOTROS
+                    </a>
+                </li>
+                <li>
+                    <a href="../blogs/blog.html">
+                        <i class="fa-solid fa-pencil"></i>
+                        BLOG
+                    </a>
+                </li>
+                <li>
+                    <a href="../galeria/galeria.html">
+                        <i class="fa-regular fa-image"></i>
+                        GALERÍA
+                    </a>
+                </li>
+                <li>
+                    <a href="../videoss/videos.html">
+                        <i class="fa-solid fa-video"></i>
+                        VIDEOS
+                    </a>
+                </li>
+                <li class="activo">
+                    <a href="contactanos.html">
+                        <i class="fa-solid fa-address-book"></i>
+                        CONTACTO
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- TABLA Y FORMULARIO CONTAINER-->
+    <main class="contacto-container">
+
+        <!-- TABLA DE INFORMACIÓN -->
+        <section class="seccion-tabla">
+            <table class="tabla-contacto">
+                <tr>
+                    <th colspan="2">Información de Contacto</th>
+                </tr>
+                <tr>
+                    <td>Dirección</td>
+                    <td>Jr. Carabaya 552 - Lima Perú</td>
+                </tr>
+                <tr>
+                    <td>Teléfonos</td>
+                    <td>997 577 470 | 980 978 484 | (01) 533 5242</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>info@fiftycoffes.com</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Horarios de Atención Presencial</th>
+                </tr>
+                <tr>
+                    <td>Área de Ventas:</td>
+                    <td>De Lunes a viernes de 8 am a 6pm</td>
+                </tr>
+            </table>
+
+            <div class="imagen-tabla">
+                <img src="../img/cafe manos.jpg" alt="Persona disfrutando de una taza de café">
+            </div>
+        </section>
+
+        <!-- FORMULARIO -->
+        <section class="seccion-formulario">
+            <form action="#" method="POST" class="formulario">
+                <h3 class="titulo-form">Formulario</h3>
+                
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="celular">Celular*</label>
+                <input type="tel" id="celular" name="celular" placeholder="999 999 999" required>
+
+                <label for="email">Correo electrónico*</label>
+                <input type="email" id="email" name="email" placeholder="nombre@dominio.com" required>
+
+                <label for="ruc">RUC - Empresa (opcional)</label>
+                <input type="text" id="ruc" name="ruc">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Detalla tu experiencia a continuación como punto de inicio" required></textarea>
+
+                <button type="submit" class="btn-enviar">ENVIAR</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- GOOGLE MAPS -->
+    <section class="seccion-mapa">
+        <div class="mapa-card">
+            <h3>Local Central</h3>
+            <div class="mapa-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.979326084042!2d-77.03534562518413!3d-12.043360541999252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c51e06d9b1%3A0xc330e7377f0d0575!2sJr.%20Carabaya%20552%2C%20Cercado%20de%20Lima%2015001!5e0!3m2!1ses-419!2spe!4v1700000000000!5m2!1ses-419!2spe" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación Local Central Fifty Coffees"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pie-pagina">
+        <div class="redes">
+            <div class="iconos">
+                <a href="https://twitter.com/starbucks?source=onebox" target="_blank" aria-label="Twitter">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/starbucksperu/?locale=es_LA" target="_blank" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/starbuckspe/?hl=es" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.tiktok.com/@starbucks.peru" target="_blank" aria-label="TikTok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+        <p class="copyright">Copyright 2025 - Todos los Derechos Reservados</p>
+    </footer>
+
+</body>
+
+</html>

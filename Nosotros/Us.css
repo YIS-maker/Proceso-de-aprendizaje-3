@@ -37,13 +37,13 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .cabecera nav a {
     text-decoration: none;
     color: #2a2ab8; 
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -56,9 +56,9 @@ body {
     color: #d96b6b;
 }
 
+/* indicador */
 .cabecera nav li.activo a {
     border-bottom: 2px solid #d96b6b;
-    color: #2a2ab8;
 }
 
 /* ===== GRID ======*/
